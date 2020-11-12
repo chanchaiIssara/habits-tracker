@@ -109,7 +109,7 @@ class CreateHabitItem : Fragment(R.layout.fragment_create_habit_item),
 
         iv_footballSelected.setOnClickListener {
             iv_footballSelected.isSelected = !iv_footballSelected.isSelected
-            drawableSelected = R.drawable.ic_smoking2
+            drawableSelected = R.drawable.ic_football
 
             //de-select the other options when we pick an image
             iv_fastFoodSelected.isSelected = false
@@ -118,7 +118,7 @@ class CreateHabitItem : Fragment(R.layout.fragment_create_habit_item),
 
         iv_sleepSelected.setOnClickListener {
             iv_sleepSelected.isSelected = !iv_sleepSelected.isSelected
-            drawableSelected = R.drawable.ic_tea
+            drawableSelected = R.drawable.ic_sleep
 
             //de-select the other options when we pick an image
             iv_fastFoodSelected.isSelected = false
